@@ -1,5 +1,8 @@
 Generate an app to display and change equipment. First page should show the list of equipment records with filter field for equipment number.
-Once the user selects a table record, a new page  opens up showing the data for the selected record. The general Tab is displayed as in the image:
+Once the user selects a table record, a new page  opens up showing the data for the selected record. 
+This new page MUST contain the following Tabs: General, Location, Organization, Structure, Warranty data, Sales and Distribution, SerData
+It is vital that these tabs are created.
+The general Tab is displayed as in the image:
 ![Object page](old_ui1.jpeg)
 Category field represents a code list with values X (Equipment services) and M (Machines)
 This page also contains the following Tabs: Location, Organization, Structure, Warranty data, Sales and Distribution, SerData, each of these tabs contains fields and/or tables.
